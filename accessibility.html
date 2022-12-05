@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Acces.css">
+</head>
+<body>
+    <div class="banner">
+        <div class="navbar">
+            <h1><span>TYRPAKS</span> RESTAURANT</h1>
+        
+            <ul>
+                <li><a href="hjem.html">Hjem</a></li>
+                <li><a href="meny.html">Meny</a></li>
+                <li><a href="selskap.html">Selskap</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+
+            </ul>
+
+        </div>
+ 
+        <div class="AccesContent">
+            <div class="AccesTitle1">
+            <h2>Beskrivelse på gjennomføringen av eksamensoppgaven</h2>
+            </div>
+            <div class="AccesTitle2">
+            <h3>Hjem og kontakt</h3></div>
+            <div class="AccesTekst">
+            <p>Vi brukte Toggle Device Tolbar og sjekket gjennom den for å teste kompatibiliteten til nettstedet vi laget med forskjellige enheter. 
+            Vi la merke til at når den gamle nettsiden åpnes på andre enheter (forskjellige telefonmodeller), blir visningen ikke lenger hel og fin slik vi så for oss. 
+            Siden ble annerledes, brukket og koblingene (lenkene til andre sider) ubrukelige.
+            </p></div>
+            <div class="AccesBilde"><img id="BildeAcces"src="bilderacces/sjermbilde1.png"></div>
+
+            <div class="AccesTekst">
+                <p>Vi endret størrelsen på den som en prosentandel i stedet for pxene vi brukte for å endre størrelsen på den.</p></div>
+            <div class="AccesBilde"><img id="BildeAcces"src="bilderacces/sjermbilde2.png"></div>
+            <div class="AccesBilde"><img id="BildeAcces"src="bilderacces/sjermbilde3.png"></div>
+
+            <div class="AccesTekst"><p>Det ble imidlertid noen forvrengninger når skjermen ble mindre, vi gjorde noen redigeringer med @media(max-width:) 
+                css-kode for å redigere dem. Vi brukte kontrastfarger for å øke lesbarheten. Siden tekstene skulle brukes med bildene, økte vi lesbarheten ved å spesifisere bakgrunnsfargen.</p></div>
+
+            <div class="AccesBilde"><img id="BildeAcces"src="bilderacces/sjermbilde4.png"></div>   
+            
+            <div class="AccesTekst">
+                <p>Siden kontakt- og hjem-sidene var veldig like i design, bestemte vi de vanlige funksjonene på en enkel css-side ved å bruke de samme klassenavnene i stedet for å gjenta de samme kodene.</p> </div>
+                <div class="AccesTitle2">
+                <h3>Meny</h3></div>
+                <p>For å lage meny side i html i første omgang har vi brukt for å gruppere elementene. 
+                    Deretter har vi laget ulike klasser til lenker og lister osv for å skille elementene fra hverandre og for å forenkle koding i css. 
+                    Videre har vi brukt display-flex og jestfey-content for å legge elementene i colum.
+                    I css-kode har vi brukt samme footer- og navbar-bakgrunn for å få samme kontrast i alle sidene. 
+                    Vi har også brukt css sine selectors som for eksempel child og descendent. For å lage avstand mellom elementene har vi brukt margin-top istedenfor break. 
+                    Vi har brukt eksempler fra forelesningene og anbefalingene vi fikk i øvingstimene for å fullføre sidene som f.eks. css selectors og margin-top.</p>
+                <div class="AccesTitle2">   
+                <h3>Selskap</h3></div>
+                <div class="AccesTekst">
+                <p>Selskap-siden består av to deler. Den ene er booking side og den andre er booking bekreftelse.  
+                    Øverst på booking siden er det Navigation bar med logo. Nederst på siden er det en footer som inneholder informasjon om adresse,
+                     åpningstider og kontakt. Vi har brukt (@Keyframes) for å lage Slide image av 4 bilder, overgangen mellom bildene er like jevn som vist. 
+                     Grunnen til at vi har brukt Slide image er for å kunne vise noen bilder av restauranten uten å bruke opp ekstra plass på siden for å legge til bilder av restauranten. 
+                     Midt på siden er det en kort beskrivelse av restauranten, hva den tilbyr og hvordan man kan reservere en lokal. Vi har laget også en enkel booking form ved hjelp av input, select option tag og button til slutt. 
+                     Når man fyller ut denne formen og trykker på BOOK NÅ, får man booking bekreftelse. Begge sider er mobilvennlige. 
+                    </p>
+                </div>
+
+        </div>
+
+        <div class="footer">
+            <div class="footerdiv">
+                <p><h3>Tyrpaks AS</h3></p>
+                <p>Pilestredet 35</p>
+                <p>0166 Oslo</p>
+            </div>
+            <div class="footerdiv">
+                <h4>Åpningstider</h4>
+                <p>Man - Søn    10.00 - 20.00</p>
+            </div>
+            <div class="kontakt">
+                <h4>Kontakt</h4>
+                <p><b>Telefon:</b> <a href="tel:12345678">12345678</a></p>
+                <p></p><b>E-post: </b> <a href="mailto:Tyrpaks4@gmail.com"> Tyrpaks4@gmail.com</a></p> 
+            </div>
+        </div>
+        
+            </div>
+</body>
+</html>
