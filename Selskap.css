@@ -1,0 +1,328 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    font-size: 20px;
+  /*  color: rgb(204, 204, 204); */
+    color: #ffff;
+}
+
+.slider{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    /* Photo by Mat Brown: https://www.pexels.com/photo/dinnerware-on-table-top-1395964/ */
+    background: url(bilder/pexels-mat-brown-1395964.jpg);
+    animation: slide 20s infinite;
+    background-size: cover;
+    
+}
+@keyframes slide{
+
+    25%{
+        /* Photo by Pixabay: https://www.pexels.com/photo/gray-candelabra-on-top-of-table-265947/ */
+        background: url(bilder/pexels-pixabay-265947\ \(2\).jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    50%{
+       /* Photo by Alex Kad: https://www.pexels.com/photo/table-with-assorted-desserts-11745423/ */
+        background: url(bilder/pexels-alex-kad-11745423.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    } 75%{
+        /*Photo by Naim Benjelloun: https://www.pexels.com/photo/assorted-cooked-foods-inside-food-warmers-2291367/*/
+        background: url(bilder/pexels-naim-benjelloun-2291367.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    } 100%{
+        /* Photo by Mat Brown: https://www.pexels.com/photo/dinnerware-on-table-top-1395964/ */
+        background: url(bilder/pexels-mat-brown-1395964.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+.shadow{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0, 0, 0, 0.7)); 
+    position: absolute;
+}
+
+.banner{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navbar{
+    width: 100%;
+    height: 15vh;
+    position: absolute;
+    top: 0;
+    display: flex;
+    padding: 32px 0;
+    align-items: center;
+    justify-content: space-between;
+    background: rgba(141, 114, 93, 0.727);
+}
+
+.navbar h1{
+    font-size: 35px;
+    text-align: center;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    padding-left: 20px;
+}
+span{
+    color: white;
+}
+.navbar ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 20px;
+    padding: 4px;
+    font-size:large;
+    padding-top: 18%;
+    
+}
+.navbar ul li a{
+    text-decoration: none;
+    color:#ffff;
+    
+}
+
+.navbar ul li a:hover{
+    box-shadow: 0 3px black;
+    transition: 1s;
+    
+}
+
+.box-container{
+    display: grid;
+    grid-template-columns: 430px 430px;
+    margin-top: 60px;
+    border-radius: 20px;
+}
+.box-description{
+    margin: 25px;
+}
+.box-description h3{
+    color: rgba(244, 197, 162, 0.727);
+
+}
+.banner h2{
+    font-size: 32px;
+    position: absolute;
+    top: 16%;
+    padding: 16px;
+}
+
+.box-content{
+    background: rgba(255,255,255,0.3);
+    height: 340px;
+    border-radius: 20px;
+    font-size: 24px;
+    margin: 25px;
+
+}
+.box-content h3{
+    color:rgba(244, 197, 162, 0.727);  
+    text-align: center;
+    padding: 25px 0 10px 0;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.form-row{
+    width: 90%;
+    margin: auto;
+    display: flex;
+}
+form select, form input{
+    display: block;
+    width: 100%;
+    margin: 15px 13px;
+    padding: 5px;
+    font-size: 15px;
+    border: none;
+    font-weight: 300;
+}
+form input[type = text], form input[type = number], form input::placeholder, select{
+    color: grey;
+}
+
+button{
+    height: 32px;
+    width: 100%;
+    margin: 5%;
+    border-radius: 5px;
+    border: 0mm;
+    background: rgba(141, 114, 93, 0.727);
+    cursor: pointer;
+}
+button:hover{
+    background-color:rgba(116, 93, 76, 0.727);
+}
+
+button a{
+    color: white;
+
+}
+
+
+.footer{
+    padding-top:10px;
+    display: flex;
+    height: 12%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(141, 114, 93, 0.816);
+}
+
+.footerdiv{
+    width: 33%;
+    text-align: center;
+    font-size: large;
+    color:black ;
+}
+
+.kontakt {
+    width: 33%;
+    text-align: center;
+    font-size: large;
+    color:black ;
+}
+
+.kontakt a{
+    text-decoration: none;
+    color: black;
+}
+#contact{
+    height: 50%;
+    width: 100%;
+    overflow: hidden;
+}
+
+
+@media(max-width:1300px) {
+    .box-container{
+        grid-template-columns: 100%;
+        width: 60vw;
+
+    }
+    .box-description{
+        height: 155px;
+        font-size: 16px;
+    }  
+    .box-content{
+        height: 320px;
+        
+    }
+
+    .navbar h1{
+        font-size: 35px;
+    }
+
+    .navbar ul li{
+        margin: 0 10px;
+        padding: 2px;
+        padding-top: 0;
+        font-size: large;
+    }
+
+    .logo{
+        margin:auto;
+    }
+
+
+    .footerdiv{
+        font-size: medium;  
+    }
+
+    .kontakt{
+        font-size: medium; 
+    }
+
+}
+
+@media(max-width:993px) {
+    .box-container{
+        grid-template-columns: 100%;
+        width: 60vw;
+
+    }
+    .box-description{
+        height: 155px;
+        font-size: 16px;
+    }  
+    .box-content{
+        height: 320px;
+        
+    }
+    .navbar{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .navbar h1{
+        font-size: 30px;
+    }
+
+    .navbar ul li{
+        font-size: medium;
+        padding-top: 2%;
+    }
+    .footerdiv{
+        font-size:small;  
+    }
+    .kontakt{
+        font-size:small;
+    }
+}
+
+@media(max-width:600px) {
+
+    .box-container{
+        grid-template-columns: 100%;
+        width: 90vw;
+
+    }
+    .box-description{
+        height: 125px;
+        font-size: 12px;
+    }  
+    .box-content{
+        height: 310px;
+        
+    }
+
+    .footer{
+        height: 9%;
+    }
+    .footerdiv{
+        font-size:x-small;  
+    }
+
+    .kontakt{
+        font-size:x-small;
+    }
+
+
+}
+
+
+    
+

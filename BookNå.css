@@ -1,0 +1,188 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body{
+    background-color: rgba(230, 216, 206, 0.87);
+    font-size: 20px;
+}
+
+.navbar{
+    width: 100%;
+    height: 15vh;
+    position: absolute;
+    top: 0;
+    display: flex;
+    padding: 32px 0;
+    align-items: center;
+    justify-content: space-between;
+    background: rgba(141, 114, 93, 0.727);
+}
+
+.navbar h1{
+    font-size: 35px;
+    text-align: center;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    padding-left: 20px;
+}
+span{
+    color: white;
+}
+.navbar ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 20px;
+    padding: 4px;
+    font-size:large;
+    padding-top: 18%;
+    
+}
+.navbar ul li a{
+    text-decoration: none;
+    color:#ffff;
+    
+}
+
+.navbar ul li a:hover{
+    box-shadow: 0 3px black;
+    transition: 1s;
+    
+}
+
+.banner{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.bekreftelse{
+    background: rgba(255,255,255,0.7);
+    width: 40vw;
+    border-radius: 20px;
+    padding: 22px;
+    margin: 38px;
+    text-align: center;
+
+}
+.bekreftelse h2 {
+    color: green;
+    margin-bottom: 12px;
+}
+.bekreftelse p{
+    padding-top: 20px;
+
+}
+.footer{
+    padding-top:10px;
+    display: flex;
+    height: 12%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(141, 114, 93, 0.816);
+}
+
+.footerdiv{
+    width: 33%;
+    text-align: center;
+    font-size: large;
+    color:black ;
+}
+
+.kontakt {
+    width: 33%;
+    text-align: center;
+    font-size: large;
+    color:black ;
+}
+
+.kontakt a{
+    text-decoration: none;
+    color: black;
+}
+#contact{
+    height: 50%;
+    width: 100%;
+    overflow: hidden;
+}
+
+@media(max-width:1300px) {
+
+    .navbar h1{
+    font-size: 35px;
+    }
+
+    .navbar ul li{
+    margin: 0 10px;
+    padding: 2px;
+    padding-top: 0;
+    font-size: large;
+    }
+
+    .logo{
+    margin:auto;
+    }
+    .footerdiv{
+    font-size: medium;  
+    }
+
+    .kontakt{
+    font-size: medium; 
+    }
+
+}
+
+@media(max-width:993px) {
+
+    .navbar{
+    flex-direction: column;
+    justify-content: center;
+    }
+    .navbar h1{
+    font-size: 30px;
+    }
+
+    .navbar ul li{
+    font-size: medium;
+    padding-top: 2%;
+    }
+    .bekreftelse{
+    font-size: 16px;
+    width: 320px;
+    margin: 40px;
+    padding: 26px;
+    }
+    .footerdiv{
+    font-size:small;  
+    }
+    .kontakt{
+    font-size:small;
+    }
+}
+
+@media(max-width:600px) {
+
+    .footer{
+        height: 9%;
+    }
+    .footerdiv{
+        font-size:x-small;  
+    }
+
+    .kontakt{
+        font-size:x-small;
+    }
+
+
+}
+
+
+    
+

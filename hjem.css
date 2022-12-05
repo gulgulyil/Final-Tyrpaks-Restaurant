@@ -1,0 +1,440 @@
+*{
+    padding:0;
+    margin:0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.banner{
+    height: 100vh;
+    width:100%;
+    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(bilde/mat.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.navbar{
+    display: flex;
+    margin:auto;
+    padding: 32px 0;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(141, 114, 93, 0.727);
+    width: 100%;
+    height: 15vh;
+    margin:0;
+    box-sizing: border-box;
+    
+}
+
+.navbar h1{
+    font-size: 35px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    padding-left: 20px;
+    color:black;
+    
+}
+
+span{
+    color: white;
+}
+
+.navbar ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 20px;
+    padding: 4px;
+    font-size:large;
+    padding-top: 18%;
+    
+}
+.navbar ul li a{
+    text-decoration: none;
+    color:#ffff;
+    
+}
+
+.navbar ul li a:hover{
+    box-shadow: 0 3px black;
+    transition: 1s;
+    
+}
+
+.firstside{
+    width: 100%;
+    height: 66%;
+    margin-bottom: auto;
+}
+
+.HjemContent{
+    
+    background-color: rgba(230, 216, 206, 0.87);
+    padding-inline-start: 2%;
+    margin-top: 8%;
+    width:40%;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    padding: 8px;
+    border-radius: 5%;
+    text-align: center;
+
+}
+
+.HjemContent p{
+    margin-top: 5px;
+    
+}
+
+#velkommen{
+    padding:10px 0;
+}
+
+.HjemMeny{
+    width: 100%;
+    margin-top: auto;
+    background-color: rgba(230, 216, 206);
+    background-size: cover;
+    display: flex;
+}
+
+
+.MenyTekst{
+    padding-top: 20%;
+    width: 50%;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.button{
+    text-decoration: none;
+    font-size:20px;
+    display: inline-block;
+    background-color: rgb(79, 52, 20);
+    color: aliceblue;
+    border-radius: 30%;
+    padding: 10px;
+    margin: 10px;
+    font-weight: bold;
+    
+}
+
+.button:hover{
+    background-color: antiquewhite;
+    color:rgb(35, 20, 2);
+    transition: 2s;
+    
+}
+
+.MenyBilde{
+    width:50%;
+
+}
+
+#Bildemeny{
+    width: 65%;
+    height: 65%;
+    align-items: center;
+    border-radius: 25%;
+    padding: 15%;
+    
+}
+
+
+
+.main-kontakt{
+    background-color:rgba(236, 214, 197, 0.816);
+    position: absolute;
+    width:100%;
+    color:rgb(74, 4, 22);
+    margin:auto;
+    text-align: center;
+
+}
+
+
+#contact{
+    height: 50%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.title{
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 3rem;
+    padding-top: 3%;
+}
+
+.contact-area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cont-left{
+    width: 40%;
+    padding: 3rem;
+}
+
+.cont-top{
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #ffffff;
+}
+
+.cont-element{
+    margin: 0.5rem 0;
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+.cont-element i{
+    color: rgb(74, 4, 22);
+    padding: 0.7rem;
+    border-radius: 50%;
+    border: 2px solid #ffffff;
+    font-size: 1.5rem;
+    margin-right: 1rem;
+    transition: all 0.4s ease;
+}
+
+.cont-element:hover i{
+    background-color: #ffffff;
+    color: #011627;
+}
+
+.cont-element a{
+    color: rgb(74, 4, 22);
+    text-decoration: none;
+}
+
+.cont-bottom{
+    padding-top: 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cont-bottom a{
+    color: #ffffff;
+    width: 4rem;
+    height: 4rem;
+    line-height: 4rem;
+    text-align: center;
+    font-size: 1.5rem;
+    background-color:rgb(74, 4, 22);;
+    border-radius: 50%;
+}
+
+.cont-bottom a:hover{
+    color: rgb(74, 4, 22);
+    background-color: #ffffff;
+}
+
+
+.cont-right{
+    width: 60%;
+    padding: 3rem;
+}
+
+.cont-right form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cont-right form input, textarea, button{
+    width: 100%;
+    margin: 1rem 0;
+    background-color: transparent;
+    font-size: 1.2rem;
+    padding: 0.5rem 1rem;
+    outline: none;
+    border: 1px solid #ffffff;
+    color: #ffffff; 
+    transition: all 0.4s ease;
+}
+
+.cont-right form button{
+    background-color: #ffffff;
+    color: #011627;
+    cursor: pointer;
+}
+
+.cont-right form button:hover{
+    background-color: rgb(74, 4, 22);
+    color: #ffffff;
+}
+
+.cont-right form input:hover, textarea:hover{
+    color: #011627;
+    background-color: #ffffff;
+}
+
+.cont-right form input:focus, textarea:focus{
+    color: #011627;
+    background-color: #ffffff;
+}
+
+.footer{
+    padding-top:2%;
+    display: flex;
+    height: 12%;
+    width: 100%;
+    border: 1px solid;
+    position: absolute;
+    background-color: rgba(141, 114, 93, 0.816);
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.footerdiv{
+    width: 33%;
+    text-align: center;
+    font-size: large;
+    color:black ;
+}
+
+.kontakt {
+    width: 33%;
+    text-align: center;
+    font-size: large;
+    color:black ;
+}
+
+.kontakt a{
+    text-decoration: none;
+    color: black;
+}
+
+@media(max-width:1300px) {
+    .navbar{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .navbar h1{
+        font-size: 35px;
+    }
+
+    .navbar ul li{
+        margin: 0 10px;
+        padding: 2px;
+        padding-top: 0;
+        font-size: large;
+    }
+
+
+    .firstside{
+        height: 65%;
+
+    }
+
+    .footerdiv{
+        font-size: medium;  
+    }
+
+    .kontakt{
+        font-size: medium; 
+    }
+
+}
+
+@media(max-width:993px) {
+    .navbar{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .navbar h1{
+        font-size: 30px;
+    }
+
+    .navbar ul li{
+        font-size: medium;
+        padding-top: 2%;
+    }
+
+    .firstside{
+        height: 74%;
+
+    }
+
+    .footerdiv{
+        font-size:small;  
+    }
+
+    .kontakt{
+        font-size:small;
+    }
+}
+
+    @media(max-width:600px) {
+
+        .firstside{
+            height: 78%;
+    
+        }
+
+        .footer{
+            height: 8%;
+        }
+        .footerdiv{
+            font-size:x-small;  
+        }
+
+        .kontakt{
+            font-size:x-small;
+        }
+
+        .cont-element a{
+            font-size: 0.9rem;
+        }
+
+    
+    }
+
+    @media(max-width:300px){
+
+        .navbar ul li{
+            
+            font-size: small;
+        }
+
+        .cont-element a{
+            font-size: 0.6rem;
+        }
+
+        .cont-bottom a{
+            width: 3rem;
+            height: 3rem;
+            line-height: 3rem;
+            font-size: 1rem;
+           
+        }
+
+        #velkommen{
+            font-size: 1rem;
+            font-weight: bold;
+        }
+
+        .MenyBilde{
+            width:40%;
+            height: 40%;
+            align-items: center;
+            padding-top: 30%;
+        
+        }
+
+    }
+    
+
