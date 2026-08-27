@@ -46,23 +46,41 @@ The project also includes a dedicated accessibility page documenting some of the
 Project Structure
 Final-Tyrpaks-Restaurant/
 │
+
 ├── hjem.html
+
 ├── hjem.css
+
 ├── meny.html
+
 ├── meny.css
+
 ├── Selskap.html
+
 ├── Selskap.css
+
 ├── BookNå.html
+
 ├── BookNå.css
+
 ├── kontakt.html
+
 ├── Topical Page.html
+
 ├── TopicalPage.css
+
 ├── accessibility.html
+
 ├── Acces.css
 │
+
 ├── bilde/
+
 ├── bilder/
+
 └── bilderacces/
+
+
 Team
 
 This project was developed as a group project.
