@@ -14,8 +14,8 @@ Features
 
 - Responsive restaurant website
 - Home page with restaurant information
-Menu page with dishes from different cuisines
-Company and event booking page
+- Menu page with dishes from different cuisines
+- Company and event booking page
 Booking form and confirmation page
 Contact page
 Accessibility page
