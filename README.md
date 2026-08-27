@@ -31,7 +31,53 @@ Technologies
 - CSS3
 - Responsive Web Design
 - CSS Flexbox
-CSS Media Queries
-CSS Animations
-HTML Forms
+- CSS Media Queries
+- CSS Animations
+- HTML Forms
+
+Accessibility & Responsive Design
+
+Accessibility and responsive design were important parts of the project.
+
+The website was tested on different screen sizes using browser developer tools. Media queries were used to improve the layout on smaller screens, while contrast and readable text were considered to improve accessibility.
+
+The project also includes a dedicated accessibility page documenting some of the design and implementation decisions.
+
+Project Structure
+Final-Tyrpaks-Restaurant/
+│
+├── hjem.html
+├── hjem.css
+├── meny.html
+├── meny.css
+├── Selskap.html
+├── Selskap.css
+├── BookNå.html
+├── BookNå.css
+├── kontakt.html
+├── Topical Page.html
+├── TopicalPage.css
+├── accessibility.html
+├── Acces.css
+│
+├── bilde/
+├── bilder/
+└── bilderacces/
+Team
+
+This project was developed as a group project.
+
+Gulnur Yildiz
+Ayat Abdalsalam
+Ali Mohammed Ali Hajkasem
+Hajra Raza
+
+
+Project Purpose
+
+The purpose of the project was to apply concepts learned during the course and demonstrate practical skills in web development, responsive design, accessibility, HTML, and CSS.
+
+Author
+
+Gulnur Yildiz
 
