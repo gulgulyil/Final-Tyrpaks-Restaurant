@@ -10,3 +10,17 @@ The website provides information about the restaurant, its menu, company/event s
 
 The project also includes a topical page discussing the use of mobile phones and social media in everyday life and education.
 
+Features
+Responsive restaurant website
+Home page with restaurant information
+Menu page with dishes from different cuisines
+Company and event booking page
+Booking form and confirmation page
+Contact page
+Accessibility page
+Topical page about mobile phone and social media usage
+Responsive navigation and layouts
+CSS animations and image slideshow
+Google Maps integration
+Mobile-friendly design
+
