@@ -18,10 +18,10 @@ Features
 - Company and event booking page
 - Booking form and confirmation page
 - Contact page
-Accessibility page
-Topical page about mobile phone and social media usage
-Responsive navigation and layouts
-CSS animations and image slideshow
-Google Maps integration
-Mobile-friendly design
+- Accessibility page
+- Topical page about mobile phone and social media usage
+- Responsive navigation and layouts
+- CSS animations and image slideshow
+- Google Maps integration
+- Mobile-friendly design
 
