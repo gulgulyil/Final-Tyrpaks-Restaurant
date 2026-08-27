@@ -25,3 +25,13 @@ Features
 - Google Maps integration
 - Mobile-friendly design
 
+Technologies
+
+HTML5
+CSS3
+Responsive Web Design
+CSS Flexbox
+CSS Media Queries
+CSS Animations
+HTML Forms
+
