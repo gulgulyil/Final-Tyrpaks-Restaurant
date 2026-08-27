@@ -16,8 +16,8 @@ Features
 - Home page with restaurant information
 - Menu page with dishes from different cuisines
 - Company and event booking page
-Booking form and confirmation page
-Contact page
+- Booking form and confirmation page
+- Contact page
 Accessibility page
 Topical page about mobile phone and social media usage
 Responsive navigation and layouts
